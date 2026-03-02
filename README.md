@@ -1,6 +1,9 @@
 # 🥗 OpticEats
 ### *See what you eat*
 
+🚀 Live Demo
+https://opticeats-hy7ypnspiugjinguyv7gwv.streamlit.app/
+
 An AI-powered food ingredient analyser — upload a photo of any food label and get an instant health breakdown.
 
 ---
