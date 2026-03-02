@@ -361,7 +361,7 @@ col_left, col_right = st.columns([1.1, 1], gap="large")
 
 with col_left:
     st.markdown('<p class="section-label">Step 1 — Select Category</p>', unsafe_allow_html=True)
-    category = st.selectbox("", CATEGORIES, label_visibility="collapsed")
+    category = st.selectbox("Select Category", CATEGORIES, label_visibility="collapsed")
 
     st.markdown('<p class="section-label" style="margin-top:1.2rem;">Step 2 — Upload Ingredient Image</p>',
                 unsafe_allow_html=True)
@@ -371,10 +371,10 @@ with col_left:
         label_visibility="collapsed"
     )
     if uploaded:
-        st.image(Image.open(uploaded), caption="Uploaded image", use_container_width=True)
+        st.image(Image.open(uploaded), caption="Uploaded image", width="stretch")
 
     st.markdown('<div style="margin-top:1.2rem;"></div>', unsafe_allow_html=True)
-    analyse_btn = st.button("✦  ANALYSE  —  DONE", use_container_width=True)
+    analyse_btn = st.button("✦ DONE", width="stretch")
 
 with col_right:
     st.markdown("""
