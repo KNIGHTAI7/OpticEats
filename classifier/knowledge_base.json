@@ -1,0 +1,1464 @@
+{
+  "_meta": {
+    "version": "1.0",
+    "description": "OpticEats ingredient knowledge base",
+    "categories": [
+      "GOOD",
+      "BAD",
+      "NEUTRAL"
+    ],
+    "sources": [
+      "Open Food Facts",
+      "FSSAI",
+      "WHO guidelines",
+      "PubMed"
+    ]
+  },
+  "ingredients": {
+    "WHEAT FLOUR": {
+      "label": "NEUTRAL",
+      "reason": "Refined grain \u2014 provides energy but low in fibre. Prefer whole wheat.",
+      "tags": [
+        "grain",
+        "refined"
+      ]
+    },
+    "WHEAT FLOUR (ATTA)": {
+      "label": "GOOD",
+      "reason": "Whole wheat flour \u2014 rich in fibre, minerals and complex carbohydrates.",
+      "tags": [
+        "grain",
+        "whole",
+        "fibre"
+      ]
+    },
+    "WHOLE WHEAT FLOUR": {
+      "label": "GOOD",
+      "reason": "Whole grain \u2014 retains bran and germ, high in fibre and nutrients.",
+      "tags": [
+        "grain",
+        "whole",
+        "fibre"
+      ]
+    },
+    "WHEAT BRAN": {
+      "label": "GOOD",
+      "reason": "Excellent source of dietary fibre. Supports digestive health.",
+      "tags": [
+        "fibre",
+        "whole grain"
+      ]
+    },
+    "OAT FLOUR": {
+      "label": "GOOD",
+      "reason": "High in beta-glucan fibre. Supports heart health and blood sugar control.",
+      "tags": [
+        "grain",
+        "fibre"
+      ]
+    },
+    "RICE FLOUR": {
+      "label": "NEUTRAL",
+      "reason": "Gluten-free grain flour. Low fibre, moderate glycaemic index.",
+      "tags": [
+        "grain",
+        "gluten-free"
+      ]
+    },
+    "MAIZE FLOUR": {
+      "label": "NEUTRAL",
+      "reason": "Gluten-free. Moderate nutritional value.",
+      "tags": [
+        "grain",
+        "gluten-free"
+      ]
+    },
+    "SUGAR": {
+      "label": "BAD",
+      "reason": "Refined sugar \u2014 empty calories, promotes tooth decay, spikes blood sugar.",
+      "tags": [
+        "sweetener",
+        "refined",
+        "high GI"
+      ]
+    },
+    "LIQUID GLUCOSE": {
+      "label": "BAD",
+      "reason": "High glycaemic index syrup \u2014 rapidly spikes blood sugar. Ultra-processed.",
+      "tags": [
+        "sweetener",
+        "high GI",
+        "ultra-processed"
+      ]
+    },
+    "HIGH FRUCTOSE CORN SYRUP": {
+      "label": "BAD",
+      "reason": "Linked to obesity, fatty liver disease and insulin resistance.",
+      "tags": [
+        "sweetener",
+        "ultra-processed"
+      ]
+    },
+    "GLUCOSE SYRUP": {
+      "label": "BAD",
+      "reason": "Highly refined sugar syrup. Rapidly raises blood glucose.",
+      "tags": [
+        "sweetener",
+        "high GI"
+      ]
+    },
+    "CORN SYRUP": {
+      "label": "BAD",
+      "reason": "Highly processed sweetener with high glycaemic index.",
+      "tags": [
+        "sweetener",
+        "ultra-processed"
+      ]
+    },
+    "INVERT SUGAR": {
+      "label": "BAD",
+      "reason": "Refined sugar mixture. Causes blood sugar spikes.",
+      "tags": [
+        "sweetener",
+        "refined"
+      ]
+    },
+    "MALTOSE": {
+      "label": "BAD",
+      "reason": "Very high glycaemic index sugar (GI=105). Spikes blood sugar rapidly.",
+      "tags": [
+        "sweetener",
+        "high GI"
+      ]
+    },
+    "HONEY": {
+      "label": "NEUTRAL",
+      "reason": "Natural sweetener with trace minerals and antibacterial properties. Use in moderation.",
+      "tags": [
+        "sweetener",
+        "natural"
+      ]
+    },
+    "STEVIA": {
+      "label": "GOOD",
+      "reason": "Natural zero-calorie sweetener. Does not spike blood sugar.",
+      "tags": [
+        "sweetener",
+        "natural"
+      ]
+    },
+    "JAGGERY": {
+      "label": "NEUTRAL",
+      "reason": "Unrefined cane sugar with trace minerals (iron, calcium). Better than refined sugar but still high in calories.",
+      "tags": [
+        "sweetener",
+        "natural"
+      ]
+    },
+    "REFINED PALM OIL": {
+      "label": "BAD",
+      "reason": "High in saturated fats. Linked to cardiovascular disease. Highly processed.",
+      "tags": [
+        "fat",
+        "saturated",
+        "refined"
+      ]
+    },
+    "PALM OIL": {
+      "label": "BAD",
+      "reason": "High in saturated fat (50%). Raises LDL cholesterol.",
+      "tags": [
+        "fat",
+        "saturated"
+      ]
+    },
+    "HYDROGENATED VEGETABLE OIL": {
+      "label": "BAD",
+      "reason": "Contains trans fats \u2014 strongly linked to heart disease and stroke.",
+      "tags": [
+        "fat",
+        "trans fat"
+      ]
+    },
+    "PARTIALLY HYDROGENATED OIL": {
+      "label": "BAD",
+      "reason": "Major source of harmful trans fats. Banned in many countries.",
+      "tags": [
+        "fat",
+        "trans fat"
+      ]
+    },
+    "VANASPATI": {
+      "label": "BAD",
+      "reason": "Hydrogenated fat with trans fats. Increases bad cholesterol significantly.",
+      "tags": [
+        "fat",
+        "trans fat"
+      ]
+    },
+    "SUNFLOWER OIL": {
+      "label": "NEUTRAL",
+      "reason": "High in omega-6. Good in moderation but excess can cause inflammation.",
+      "tags": [
+        "fat",
+        "vegetable oil"
+      ]
+    },
+    "OLIVE OIL": {
+      "label": "GOOD",
+      "reason": "Rich in monounsaturated fats and antioxidants. Excellent for heart health.",
+      "tags": [
+        "fat",
+        "healthy fat"
+      ]
+    },
+    "COCONUT OIL": {
+      "label": "NEUTRAL",
+      "reason": "High in saturated fat but with medium-chain triglycerides. Use in moderation.",
+      "tags": [
+        "fat",
+        "saturated"
+      ]
+    },
+    "MILK SOLIDS": {
+      "label": "NEUTRAL",
+      "reason": "Concentrated dairy \u2014 provides protein and calcium. May concern lactose intolerant.",
+      "tags": [
+        "dairy",
+        "protein"
+      ]
+    },
+    "MILK POWDER": {
+      "label": "NEUTRAL",
+      "reason": "Dehydrated milk \u2014 retains protein and calcium.",
+      "tags": [
+        "dairy",
+        "protein"
+      ]
+    },
+    "WHEY POWDER": {
+      "label": "GOOD",
+      "reason": "High quality dairy protein. Contains all essential amino acids.",
+      "tags": [
+        "dairy",
+        "protein"
+      ]
+    },
+    "WHEY PROTEIN": {
+      "label": "GOOD",
+      "reason": "Complete protein source. Supports muscle repair and satiety.",
+      "tags": [
+        "protein",
+        "dairy"
+      ]
+    },
+    "SKIMMED MILK POWDER": {
+      "label": "GOOD",
+      "reason": "Low fat dairy \u2014 good protein and calcium source.",
+      "tags": [
+        "dairy",
+        "protein"
+      ]
+    },
+    "BUTTER": {
+      "label": "NEUTRAL",
+      "reason": "Natural dairy fat. Contains fat-soluble vitamins. Use in moderation.",
+      "tags": [
+        "dairy",
+        "fat"
+      ]
+    },
+    "MALTODEXTRIN": {
+      "label": "BAD",
+      "reason": "Ultra-processed carbohydrate with very high GI (85-105). Spikes blood sugar rapidly. Minimal nutrition.",
+      "tags": [
+        "ultra-processed",
+        "high GI"
+      ]
+    },
+    "MODIFIED STARCH": {
+      "label": "BAD",
+      "reason": "Chemically altered starch. High GI, minimal nutrition. Ultra-processed.",
+      "tags": [
+        "ultra-processed",
+        "starch"
+      ]
+    },
+    "CORN STARCH": {
+      "label": "NEUTRAL",
+      "reason": "Common thickener. High glycaemic index but used in small amounts.",
+      "tags": [
+        "starch",
+        "thickener"
+      ]
+    },
+    "MALT EXTRACT": {
+      "label": "NEUTRAL",
+      "reason": "Natural barley extract \u2014 adds flavour and some B vitamins. Moderate sugar content.",
+      "tags": [
+        "natural",
+        "flavouring"
+      ]
+    },
+    "RAISING AGENTS": {
+      "label": "NEUTRAL",
+      "reason": "Leavening agents used in baking. Generally safe in small quantities.",
+      "tags": [
+        "additive",
+        "leavening"
+      ]
+    },
+    "DOUGH CONDITIONER": {
+      "label": "BAD",
+      "reason": "Chemical additive to improve texture. E-223 (sodium metabisulphite) \u2014 a sulphite preservative that can trigger reactions in sensitive individuals.",
+      "tags": [
+        "additive",
+        "preservative",
+        "sulphite"
+      ]
+    },
+    "IODISED SALT": {
+      "label": "NEUTRAL",
+      "reason": "Essential mineral in small amounts. Excess sodium linked to hypertension.",
+      "tags": [
+        "mineral",
+        "sodium"
+      ]
+    },
+    "SALT": {
+      "label": "NEUTRAL",
+      "reason": "Essential in small amounts. Excess linked to high blood pressure.",
+      "tags": [
+        "mineral",
+        "sodium"
+      ]
+    },
+    "EMULSIFIERS": {
+      "label": "NEUTRAL",
+      "reason": "Used to blend ingredients. Safety varies by specific e-number used.",
+      "tags": [
+        "additive",
+        "emulsifier"
+      ]
+    },
+    "LECITHIN": {
+      "label": "GOOD",
+      "reason": "Natural emulsifier from soy or sunflower. Supports brain and liver health.",
+      "tags": [
+        "emulsifier",
+        "natural"
+      ]
+    },
+    "MONO AND DIGLYCERIDES": {
+      "label": "BAD",
+      "reason": "Synthetic emulsifiers derived from fats. May contain trace trans fats.",
+      "tags": [
+        "additive",
+        "synthetic"
+      ]
+    },
+    "CARRAGEENAN": {
+      "label": "BAD",
+      "reason": "Linked to gut inflammation in some studies. Controversial food additive.",
+      "tags": [
+        "additive",
+        "thickener"
+      ]
+    },
+    "NATURAL FLAVOUR": {
+      "label": "NEUTRAL",
+      "reason": "Can originate from natural sources but processing method varies. Generally safe.",
+      "tags": [
+        "flavouring",
+        "natural"
+      ]
+    },
+    "ARTIFICIAL FLAVOUR": {
+      "label": "BAD",
+      "reason": "Synthetic chemical flavouring. No nutritional value. May cause sensitivities.",
+      "tags": [
+        "flavouring",
+        "synthetic"
+      ]
+    },
+    "VANILLA EXTRACT": {
+      "label": "GOOD",
+      "reason": "Natural flavour extract with antioxidant properties.",
+      "tags": [
+        "flavouring",
+        "natural"
+      ]
+    },
+    "VANILLIN": {
+      "label": "NEUTRAL",
+      "reason": "Synthetic vanilla \u2014 generally safe but artificial. No nutritional value.",
+      "tags": [
+        "flavouring",
+        "synthetic"
+      ]
+    },
+    "SODIUM BENZOATE": {
+      "label": "BAD",
+      "reason": "Preservative linked to hyperactivity. Forms benzene with Vitamin C.",
+      "tags": [
+        "preservative",
+        "harmful"
+      ]
+    },
+    "POTASSIUM SORBATE": {
+      "label": "NEUTRAL",
+      "reason": "Common preservative. Generally considered safe at food-grade concentrations.",
+      "tags": [
+        "preservative"
+      ]
+    },
+    "SODIUM METABISULPHITE": {
+      "label": "BAD",
+      "reason": "Sulphite preservative (E-223). Can trigger asthma and allergic reactions.",
+      "tags": [
+        "preservative",
+        "sulphite",
+        "allergen"
+      ]
+    },
+    "TBHQ": {
+      "label": "BAD",
+      "reason": "Synthetic antioxidant preservative. Linked to immune issues at high doses.",
+      "tags": [
+        "preservative",
+        "synthetic"
+      ]
+    },
+    "BHA": {
+      "label": "BAD",
+      "reason": "Synthetic preservative. Classified as possibly carcinogenic by IARC.",
+      "tags": [
+        "preservative",
+        "synthetic"
+      ]
+    },
+    "BHT": {
+      "label": "BAD",
+      "reason": "Synthetic antioxidant. Controversial \u2014 possible endocrine disruptor.",
+      "tags": [
+        "preservative",
+        "synthetic"
+      ]
+    },
+    "ASPARTAME": {
+      "label": "BAD",
+      "reason": "Artificial sweetener. WHO classified as possibly carcinogenic (Group 2B) in 2023.",
+      "tags": [
+        "sweetener",
+        "artificial"
+      ]
+    },
+    "SACCHARIN": {
+      "label": "BAD",
+      "reason": "Oldest artificial sweetener. May disrupt gut microbiome.",
+      "tags": [
+        "sweetener",
+        "artificial"
+      ]
+    },
+    "SUCRALOSE": {
+      "label": "NEUTRAL",
+      "reason": "Artificial sweetener. Generally considered safe but may affect gut bacteria.",
+      "tags": [
+        "sweetener",
+        "artificial"
+      ]
+    },
+    "VITAMIN C": {
+      "label": "GOOD",
+      "reason": "Essential vitamin and antioxidant. Supports immunity and iron absorption.",
+      "tags": [
+        "vitamin",
+        "antioxidant"
+      ]
+    },
+    "VITAMIN D": {
+      "label": "GOOD",
+      "reason": "Essential vitamin for bone health and immune function.",
+      "tags": [
+        "vitamin"
+      ]
+    },
+    "CALCIUM": {
+      "label": "GOOD",
+      "reason": "Essential mineral for bone and teeth health.",
+      "tags": [
+        "mineral"
+      ]
+    },
+    "ZINC": {
+      "label": "GOOD",
+      "reason": "Essential mineral for immune function and wound healing.",
+      "tags": [
+        "mineral"
+      ]
+    },
+    "INULIN": {
+      "label": "GOOD",
+      "reason": "Prebiotic fibre \u2014 feeds beneficial gut bacteria. Supports digestive health.",
+      "tags": [
+        "fibre",
+        "prebiotic"
+      ]
+    },
+    "PECTIN": {
+      "label": "GOOD",
+      "reason": "Natural soluble fibre from fruit. Supports gut health and cholesterol.",
+      "tags": [
+        "fibre",
+        "natural"
+      ]
+    },
+    "GUAR GUM": {
+      "label": "NEUTRAL",
+      "reason": "Natural thickener from guar beans. High doses may cause digestive issues.",
+      "tags": [
+        "thickener",
+        "natural"
+      ]
+    },
+    "XANTHAN GUM": {
+      "label": "NEUTRAL",
+      "reason": "Natural fermented thickener. Generally safe.",
+      "tags": [
+        "thickener",
+        "natural"
+      ]
+    },
+    "COCOA MASS": {
+      "label": "GOOD",
+      "reason": "Pure ground cacao \u2014 rich in antioxidants, flavonoids, iron and magnesium. The healthiest part of chocolate.",
+      "tags": [
+        "natural",
+        "antioxidant",
+        "cacao"
+      ]
+    },
+    "COCOA SOLIDS": {
+      "label": "GOOD",
+      "reason": "Pure cocoa \u2014 rich in antioxidants and flavonoids. Supports heart and brain health.",
+      "tags": [
+        "natural",
+        "antioxidant",
+        "cacao"
+      ]
+    },
+    "COCOA BUTTER": {
+      "label": "GOOD",
+      "reason": "Natural fat from cacao beans. Contains stearic acid which doesn't raise LDL cholesterol. Rich in antioxidants.",
+      "tags": [
+        "natural",
+        "fat",
+        "cacao"
+      ]
+    },
+    "COCOA POWDER": {
+      "label": "GOOD",
+      "reason": "Pure unsweetened cocoa \u2014 excellent source of antioxidants, iron and magnesium.",
+      "tags": [
+        "natural",
+        "antioxidant",
+        "cacao"
+      ]
+    },
+    "DARK CHOCOLATE": {
+      "label": "GOOD",
+      "reason": "High cocoa content dark chocolate \u2014 rich in antioxidants and flavonoids. Beneficial in moderation.",
+      "tags": [
+        "natural",
+        "antioxidant",
+        "cacao"
+      ]
+    },
+    "BUTTER OIL": {
+      "label": "NEUTRAL",
+      "reason": "Clarified milk fat (anhydrous butter). Natural dairy fat \u2014 provides fat-soluble vitamins.",
+      "tags": [
+        "dairy",
+        "fat",
+        "natural"
+      ]
+    },
+    "ANHYDROUS MILK FAT": {
+      "label": "NEUTRAL",
+      "reason": "Pure clarified butter fat. Natural dairy ingredient. Use in moderation.",
+      "tags": [
+        "dairy",
+        "fat"
+      ]
+    },
+    "FRUCTOSE": {
+      "label": "BAD",
+      "reason": "Excess fructose linked to fatty liver and metabolic disorders. However, in trace amounts (as in high-cocoa chocolate), impact is minimal.",
+      "tags": [
+        "sweetener",
+        "high fructose"
+      ]
+    },
+    "EMULSIFIER (SOY LECITHIN)": {
+      "label": "GOOD",
+      "reason": "Natural emulsifier from soy. Supports brain and liver health. Safe and beneficial.",
+      "tags": [
+        "emulsifier",
+        "natural",
+        "soy"
+      ]
+    },
+    "SOY LECITHIN": {
+      "label": "GOOD",
+      "reason": "Natural emulsifier from soy or sunflower. Supports brain health.",
+      "tags": [
+        "emulsifier",
+        "natural"
+      ]
+    },
+    "SUNFLOWER LECITHIN": {
+      "label": "GOOD",
+      "reason": "Natural emulsifier from sunflower. Non-GMO alternative to soy lecithin.",
+      "tags": [
+        "emulsifier",
+        "natural"
+      ]
+    },
+    "NATURAL FLAVOURING": {
+      "label": "NEUTRAL",
+      "reason": "Derived from natural sources. Generally safe. Better than artificial flavouring.",
+      "tags": [
+        "flavouring",
+        "natural"
+      ]
+    },
+    "VANILLA": {
+      "label": "GOOD",
+      "reason": "Natural spice with antioxidant properties. Safe and beneficial flavouring.",
+      "tags": [
+        "spice",
+        "natural",
+        "antioxidant"
+      ]
+    },
+    "WHOLE MILK POWDER": {
+      "label": "NEUTRAL",
+      "reason": "Full-fat dried milk. Provides protein and calcium but high in saturated fat.",
+      "tags": [
+        "dairy",
+        "protein"
+      ]
+    },
+    "SKIM MILK POWDER": {
+      "label": "GOOD",
+      "reason": "Low fat dried milk. Good source of protein and calcium.",
+      "tags": [
+        "dairy",
+        "protein"
+      ]
+    },
+    "HAZELNUTS": {
+      "label": "GOOD",
+      "reason": "Rich in healthy monounsaturated fats, vitamin E, magnesium and antioxidants.",
+      "tags": [
+        "nuts",
+        "healthy fat",
+        "antioxidant"
+      ]
+    },
+    "ALMONDS": {
+      "label": "GOOD",
+      "reason": "Excellent source of Vitamin E, magnesium, healthy fats and fibre.",
+      "tags": [
+        "nuts",
+        "healthy fat"
+      ]
+    },
+    "OATS": {
+      "label": "GOOD",
+      "reason": "Whole grain \u2014 rich in beta-glucan fibre. Supports heart health and blood sugar.",
+      "tags": [
+        "grain",
+        "fibre"
+      ]
+    },
+    "CANE SUGAR": {
+      "label": "BAD",
+      "reason": "Refined sugar \u2014 empty calories, spikes blood sugar. Less processed than white sugar but still harmful in excess.",
+      "tags": [
+        "sweetener",
+        "refined"
+      ]
+    },
+    "BROWN SUGAR": {
+      "label": "BAD",
+      "reason": "Refined sugar with molasses. Slightly more minerals than white sugar but still causes blood sugar spikes.",
+      "tags": [
+        "sweetener",
+        "refined"
+      ]
+    },
+    "SODIUM BICARBONATE": {
+      "label": "GOOD",
+      "reason": "Baking soda \u2014 natural leavening agent. Safe and commonly used in baking.",
+      "tags": [
+        "leavening",
+        "natural",
+        "additive"
+      ]
+    },
+    "BAKING POWDER": {
+      "label": "NEUTRAL",
+      "reason": "Leavening agent \u2014 mixture of baking soda and acid. Safe in normal quantities.",
+      "tags": [
+        "leavening",
+        "additive"
+      ]
+    },
+    "BAKING SODA": {
+      "label": "GOOD",
+      "reason": "Natural leavening agent (sodium bicarbonate). Safe and commonly used.",
+      "tags": [
+        "leavening",
+        "natural"
+      ]
+    },
+    "ANTIOXIDANT": {
+      "label": "NEUTRAL",
+      "reason": "Prevents oxidation and extends shelf life. Safety depends on specific compound used.",
+      "tags": [
+        "preservative",
+        "additive"
+      ]
+    },
+    "ANTIOXIDANT (INS 320)": {
+      "label": "BAD",
+      "reason": "BHA (E320) \u2014 synthetic antioxidant. Classified as possibly carcinogenic by IARC.",
+      "tags": [
+        "preservative",
+        "synthetic",
+        "harmful"
+      ]
+    },
+    "CORN": {
+      "label": "NEUTRAL",
+      "reason": "Whole corn grain \u2014 provides carbohydrates and some fibre. Moderate nutritional value.",
+      "tags": [
+        "grain",
+        "natural"
+      ]
+    },
+    "EDIBLE COMMON SALT": {
+      "label": "NEUTRAL",
+      "reason": "Essential mineral in small amounts. Excess sodium linked to high blood pressure.",
+      "tags": [
+        "mineral",
+        "sodium"
+      ]
+    },
+    "EDIBLE SALT": {
+      "label": "NEUTRAL",
+      "reason": "Essential mineral in small amounts. Excess sodium linked to high blood pressure.",
+      "tags": [
+        "mineral",
+        "sodium"
+      ]
+    },
+    "ACIDITY REGULATOR": {
+      "label": "NEUTRAL",
+      "reason": "Controls pH in food products. Safety varies by specific compound used.",
+      "tags": [
+        "additive"
+      ]
+    },
+    "ANTICAKING AGENT": {
+      "label": "NEUTRAL",
+      "reason": "Prevents clumping in powdered foods. Generally safe in small quantities.",
+      "tags": [
+        "additive"
+      ]
+    },
+    "STABILISER": {
+      "label": "NEUTRAL",
+      "reason": "Maintains food texture and consistency. Generally safe in approved quantities.",
+      "tags": [
+        "additive",
+        "thickener"
+      ]
+    },
+    "HUMECTANT": {
+      "label": "NEUTRAL",
+      "reason": "Retains moisture in food products. Safety depends on specific compound used.",
+      "tags": [
+        "additive"
+      ]
+    },
+    "WHOLE GRAIN": {
+      "label": "GOOD",
+      "reason": "Whole grain \u2014 retains bran and germ, high in fibre, vitamins and minerals.",
+      "tags": [
+        "grain",
+        "whole",
+        "fibre"
+      ]
+    },
+    "MULTIGRAIN": {
+      "label": "GOOD",
+      "reason": "Multiple whole grains \u2014 diverse fibre, vitamins and minerals.",
+      "tags": [
+        "grain",
+        "whole"
+      ]
+    },
+    "WHOLE GRAIN FLAKES": {
+      "label": "GOOD",
+      "reason": "Whole grain cereal \u2014 high in fibre and complex carbohydrates.",
+      "tags": [
+        "grain",
+        "whole",
+        "fibre"
+      ]
+    },
+    "MULTIGRAIN FLAKES": {
+      "label": "GOOD",
+      "reason": "Multiple whole grains in flake form \u2014 high in fibre and nutrients.",
+      "tags": [
+        "grain",
+        "whole"
+      ]
+    },
+    "ROLLED OATS": {
+      "label": "GOOD",
+      "reason": "Whole grain oats \u2014 excellent source of beta-glucan fibre. Supports heart health.",
+      "tags": [
+        "grain",
+        "fibre",
+        "heart health"
+      ]
+    },
+    "BARLEY FLAKES": {
+      "label": "GOOD",
+      "reason": "Whole grain barley \u2014 high in soluble fibre, especially beta-glucan. Supports cholesterol.",
+      "tags": [
+        "grain",
+        "fibre",
+        "heart health"
+      ]
+    },
+    "BARLEY": {
+      "label": "GOOD",
+      "reason": "Whole grain \u2014 excellent source of soluble fibre and B vitamins.",
+      "tags": [
+        "grain",
+        "fibre"
+      ]
+    },
+    "BROWN RICE": {
+      "label": "GOOD",
+      "reason": "Whole grain rice \u2014 retains bran layer, higher fibre than white rice.",
+      "tags": [
+        "grain",
+        "whole",
+        "fibre"
+      ]
+    },
+    "BROWN RICE FLAKES": {
+      "label": "GOOD",
+      "reason": "Whole grain brown rice flakes \u2014 good source of fibre and minerals.",
+      "tags": [
+        "grain",
+        "whole"
+      ]
+    },
+    "QUINOA": {
+      "label": "GOOD",
+      "reason": "Complete protein grain \u2014 contains all 9 essential amino acids. High in fibre and minerals.",
+      "tags": [
+        "grain",
+        "protein",
+        "complete protein"
+      ]
+    },
+    "QUINOA PUFFS": {
+      "label": "GOOD",
+      "reason": "Puffed quinoa \u2014 retains complete protein and fibre profile.",
+      "tags": [
+        "grain",
+        "protein"
+      ]
+    },
+    "FRUITS": {
+      "label": "GOOD",
+      "reason": "Natural fruits \u2014 rich in vitamins, antioxidants and dietary fibre.",
+      "tags": [
+        "fruit",
+        "natural",
+        "antioxidant"
+      ]
+    },
+    "RAISINS": {
+      "label": "GOOD",
+      "reason": "Dried grapes \u2014 natural source of iron, potassium and antioxidants. High natural sugar.",
+      "tags": [
+        "fruit",
+        "natural",
+        "antioxidant"
+      ]
+    },
+    "CANDIED PAPAYA": {
+      "label": "NEUTRAL",
+      "reason": "Papaya preserved with sugar \u2014 loses some nutrients, added sugar is a concern.",
+      "tags": [
+        "fruit",
+        "sugared"
+      ]
+    },
+    "STRAWBERRY PULP": {
+      "label": "GOOD",
+      "reason": "Natural strawberry \u2014 rich in Vitamin C, antioxidants and fibre.",
+      "tags": [
+        "fruit",
+        "natural",
+        "vitamin C"
+      ]
+    },
+    "CANDIED APPLE": {
+      "label": "NEUTRAL",
+      "reason": "Apple preserved with sugar \u2014 some fruit nutrition retained but high in added sugar.",
+      "tags": [
+        "fruit",
+        "sugared"
+      ]
+    },
+    "DRIED FRUITS": {
+      "label": "GOOD",
+      "reason": "Concentrated source of fibre, iron and antioxidants from natural fruits.",
+      "tags": [
+        "fruit",
+        "natural"
+      ]
+    },
+    "NUT": {
+      "label": "GOOD",
+      "reason": "Nuts are rich in healthy fats, protein, fibre and minerals.",
+      "tags": [
+        "nuts",
+        "healthy fat"
+      ]
+    },
+    "NUTS": {
+      "label": "GOOD",
+      "reason": "Rich in healthy monounsaturated and polyunsaturated fats, protein and minerals.",
+      "tags": [
+        "nuts",
+        "healthy fat"
+      ]
+    },
+    "SEEDS": {
+      "label": "GOOD",
+      "reason": "Rich in healthy fats, protein, fibre and micronutrients.",
+      "tags": [
+        "seeds",
+        "healthy fat"
+      ]
+    },
+    "NUT & SEEDS": {
+      "label": "GOOD",
+      "reason": "Combination of nuts and seeds \u2014 excellent source of healthy fats, protein and minerals.",
+      "tags": [
+        "nuts",
+        "seeds",
+        "healthy fat"
+      ]
+    },
+    "NUTS AND SEEDS": {
+      "label": "GOOD",
+      "reason": "Excellent source of healthy fats, protein, fibre and essential minerals.",
+      "tags": [
+        "nuts",
+        "seeds"
+      ]
+    },
+    "PUMPKIN SEEDS": {
+      "label": "GOOD",
+      "reason": "Rich in zinc, magnesium, healthy fats and antioxidants.",
+      "tags": [
+        "seeds",
+        "healthy fat",
+        "mineral"
+      ]
+    },
+    "FLAX SEEDS": {
+      "label": "GOOD",
+      "reason": "Rich in omega-3 fatty acids (ALA), lignans and fibre. Anti-inflammatory.",
+      "tags": [
+        "seeds",
+        "omega-3",
+        "anti-inflammatory"
+      ]
+    },
+    "CHIA SEEDS": {
+      "label": "GOOD",
+      "reason": "Excellent source of omega-3 ALA, fibre, calcium and antioxidants.",
+      "tags": [
+        "seeds",
+        "omega-3",
+        "fibre"
+      ]
+    },
+    "SUNFLOWER SEEDS": {
+      "label": "GOOD",
+      "reason": "Rich in Vitamin E, selenium and healthy fats.",
+      "tags": [
+        "seeds",
+        "vitamin E"
+      ]
+    },
+    "WALNUTS": {
+      "label": "GOOD",
+      "reason": "Rich in omega-3 ALA, antioxidants and brain-supporting nutrients.",
+      "tags": [
+        "nuts",
+        "omega-3"
+      ]
+    },
+    "CASHEWS": {
+      "label": "GOOD",
+      "reason": "Rich in copper, magnesium and healthy monounsaturated fats.",
+      "tags": [
+        "nuts",
+        "healthy fat"
+      ]
+    },
+    "PISTACHIOS": {
+      "label": "GOOD",
+      "reason": "High in protein, fibre, potassium and antioxidants.",
+      "tags": [
+        "nuts",
+        "protein"
+      ]
+    },
+    "JAGGERY POWDER": {
+      "label": "NEUTRAL",
+      "reason": "Powdered unrefined cane sugar. Contains trace minerals. Less processed than white sugar but still high GI.",
+      "tags": [
+        "sweetener",
+        "natural"
+      ]
+    },
+    "COCONUT SUGAR": {
+      "label": "NEUTRAL",
+      "reason": "Lower GI than refined sugar. Contains trace minerals but still a sugar \u2014 use in moderation.",
+      "tags": [
+        "sweetener",
+        "natural"
+      ]
+    },
+    "DATE SUGAR": {
+      "label": "NEUTRAL",
+      "reason": "Made from dried dates \u2014 retains some fibre and minerals. Better than refined sugar.",
+      "tags": [
+        "sweetener",
+        "natural"
+      ]
+    },
+    "TEXTURED SOY PROTEIN": {
+      "label": "GOOD",
+      "reason": "Complete plant protein from soy \u2014 high protein, low fat. Good meat alternative.",
+      "tags": [
+        "protein",
+        "plant-based"
+      ]
+    },
+    "SOY PROTEIN": {
+      "label": "GOOD",
+      "reason": "Complete plant protein \u2014 contains all essential amino acids.",
+      "tags": [
+        "protein",
+        "plant-based"
+      ]
+    },
+    "PEA PROTEIN": {
+      "label": "GOOD",
+      "reason": "Plant-based complete protein. High in branched-chain amino acids.",
+      "tags": [
+        "protein",
+        "plant-based"
+      ]
+    },
+    "ACIDITY REGULATOR (INS 330)": {
+      "label": "GOOD",
+      "reason": "Citric acid (INS 330) \u2014 natural acid from citrus fruit. Safe preservative.",
+      "tags": [
+        "additive",
+        "natural"
+      ]
+    },
+    "THICKENER (INS 440)": {
+      "label": "NEUTRAL",
+      "reason": "Pectin (INS 440) \u2014 natural thickener from fruit. Prebiotic fibre. Safe and beneficial.",
+      "tags": [
+        "thickener",
+        "natural"
+      ]
+    },
+    "NATURE IDENTICAL FLAVOURING SUBSTANCE": {
+      "label": "NEUTRAL",
+      "reason": "Nature-identical flavours \u2014 chemically synthesised to match natural flavours. Generally safe.",
+      "tags": [
+        "flavouring"
+      ]
+    },
+    "NATURE IDENTICAL FLAVOURING SUBSTANCES": {
+      "label": "NEUTRAL",
+      "reason": "Nature-identical flavours \u2014 chemically synthesised to match natural flavours. Generally safe.",
+      "tags": [
+        "flavouring"
+      ]
+    },
+    "STRAWBERRY CRUSH": {
+      "label": "NEUTRAL",
+      "reason": "Processed fruit crush \u2014 some fruit nutrition but often contains added sugar.",
+      "tags": [
+        "fruit",
+        "processed"
+      ]
+    }
+  },
+  "e_numbers": {
+    "100": {
+      "name": "Curcumin",
+      "label": "GOOD",
+      "reason": "Natural yellow pigment from turmeric. Antioxidant and anti-inflammatory."
+    },
+    "101": {
+      "name": "Riboflavin (B2)",
+      "label": "GOOD",
+      "reason": "Natural vitamin B2. Used as yellow colour. Essential nutrient."
+    },
+    "102": {
+      "name": "Tartrazine",
+      "label": "BAD",
+      "reason": "Synthetic yellow dye. Linked to hyperactivity and allergic reactions."
+    },
+    "110": {
+      "name": "Sunset Yellow",
+      "label": "BAD",
+      "reason": "Synthetic orange dye. Linked to hyperactivity in children."
+    },
+    "120": {
+      "name": "Cochineal",
+      "label": "NEUTRAL",
+      "reason": "Natural red dye from insects. Can trigger allergic reactions."
+    },
+    "129": {
+      "name": "Allura Red",
+      "label": "BAD",
+      "reason": "Synthetic red dye. Linked to hyperactivity. Banned in some countries."
+    },
+    "160a": {
+      "name": "Beta Carotene",
+      "label": "GOOD",
+      "reason": "Natural orange pigment. Vitamin A precursor and antioxidant."
+    },
+    "162": {
+      "name": "Beetroot Red",
+      "label": "GOOD",
+      "reason": "Natural red pigment from beetroot. Contains beneficial antioxidants."
+    },
+    "171": {
+      "name": "Titanium Dioxide",
+      "label": "BAD",
+      "reason": "White pigment. EFSA concluded it can no longer be considered safe (2021)."
+    },
+    "200": {
+      "name": "Sorbic Acid",
+      "label": "NEUTRAL",
+      "reason": "Natural preservative. Generally safe at food concentrations."
+    },
+    "202": {
+      "name": "Potassium Sorbate",
+      "label": "NEUTRAL",
+      "reason": "Common preservative. Considered safe. May affect gut microbiome at high doses."
+    },
+    "210": {
+      "name": "Benzoic Acid",
+      "label": "BAD",
+      "reason": "Can form carcinogenic benzene when combined with Vitamin C."
+    },
+    "211": {
+      "name": "Sodium Benzoate",
+      "label": "BAD",
+      "reason": "Linked to hyperactivity in children. Forms carcinogenic benzene with Vitamin C."
+    },
+    "220": {
+      "name": "Sulphur Dioxide",
+      "label": "BAD",
+      "reason": "Sulphite preservative. Can trigger asthma attacks and allergic reactions."
+    },
+    "221": {
+      "name": "Sodium Sulphite",
+      "label": "BAD",
+      "reason": "Sulphite preservative. Triggers reactions in sensitive individuals."
+    },
+    "223": {
+      "name": "Sodium Metabisulphite",
+      "label": "BAD",
+      "reason": "Sulphite preservative. Can trigger asthma and severe allergic reactions."
+    },
+    "224": {
+      "name": "Potassium Metabisulphite",
+      "label": "BAD",
+      "reason": "Sulphite preservative. Allergen risk for asthma sufferers."
+    },
+    "250": {
+      "name": "Sodium Nitrite",
+      "label": "BAD",
+      "reason": "Meat preservative. Strongly linked to colorectal cancer risk."
+    },
+    "300": {
+      "name": "Ascorbic Acid (Vit C)",
+      "label": "GOOD",
+      "reason": "Vitamin C \u2014 essential antioxidant. Preserves freshness naturally."
+    },
+    "301": {
+      "name": "Sodium Ascorbate",
+      "label": "GOOD",
+      "reason": "Vitamin C salt \u2014 antioxidant preservative. Beneficial nutrient."
+    },
+    "306": {
+      "name": "Tocopherols (Vit E)",
+      "label": "GOOD",
+      "reason": "Natural Vitamin E \u2014 powerful antioxidant."
+    },
+    "319": {
+      "name": "TBHQ",
+      "label": "BAD",
+      "reason": "Synthetic antioxidant. Linked to immune issues at high concentrations."
+    },
+    "320": {
+      "name": "BHA",
+      "label": "BAD",
+      "reason": "Possibly carcinogenic synthetic preservative (IARC Group 2B). Banned in some countries."
+    },
+    "321": {
+      "name": "BHT",
+      "label": "BAD",
+      "reason": "Synthetic antioxidant. Controversial \u2014 possible endocrine disruptor."
+    },
+    "322": {
+      "name": "Lecithin",
+      "label": "GOOD",
+      "reason": "Natural emulsifier from soy/sunflower. Supports brain and liver health."
+    },
+    "322(i)": {
+      "name": "Lecithin",
+      "label": "GOOD",
+      "reason": "Natural emulsifier. Derived from soy or sunflower. Safe and beneficial."
+    },
+    "330": {
+      "name": "Citric Acid",
+      "label": "GOOD",
+      "reason": "Natural acid from citrus fruit. Safe preservative and flavour enhancer."
+    },
+    "420": {
+      "name": "Sorbitol",
+      "label": "NEUTRAL",
+      "reason": "Sugar alcohol sweetener. Can cause digestive discomfort in large amounts."
+    },
+    "471": {
+      "name": "Mono and Diglycerides",
+      "label": "BAD",
+      "reason": "Synthetic emulsifier. May contain trace trans fats. Ultra-processed."
+    },
+    "472e": {
+      "name": "DATEM",
+      "label": "BAD",
+      "reason": "Diacetyl tartaric acid ester \u2014 synthetic emulsifier. Ultra-processed."
+    },
+    "476": {
+      "name": "Polyglycerol Polyricinoleate",
+      "label": "BAD",
+      "reason": "Synthetic emulsifier from castor oil. Ultra-processed additive."
+    },
+    "481": {
+      "name": "Sodium Stearoyl Lactylate",
+      "label": "NEUTRAL",
+      "reason": "Emulsifier used in baking. Generally considered safe."
+    },
+    "500": {
+      "name": "Sodium Carbonates",
+      "label": "NEUTRAL",
+      "reason": "Raising agent (baking soda family). Safe in normal food quantities."
+    },
+    "500(ii)": {
+      "name": "Sodium Bicarbonate",
+      "label": "GOOD",
+      "reason": "Baking soda \u2014 natural leavening agent. Safe and commonly used."
+    },
+    "503": {
+      "name": "Ammonium Carbonates",
+      "label": "NEUTRAL",
+      "reason": "Leavening agent. Safe \u2014 ammonia dissipates completely during baking."
+    },
+    "503(ii)": {
+      "name": "Ammonium Bicarbonate",
+      "label": "NEUTRAL",
+      "reason": "Baking leavener. Dissipates completely during baking. Safe."
+    },
+    "621": {
+      "name": "MSG",
+      "label": "NEUTRAL",
+      "reason": "Monosodium glutamate. Widely studied \u2014 safe for most people. High sodium."
+    },
+    "924": {
+      "name": "Potassium Bromate",
+      "label": "BAD",
+      "reason": "Flour improver. Classified as possibly carcinogenic. Banned in many countries."
+    },
+    "951": {
+      "name": "Aspartame",
+      "label": "BAD",
+      "reason": "Artificial sweetener. WHO classified as possibly carcinogenic (2023)."
+    },
+    "954": {
+      "name": "Saccharin",
+      "label": "BAD",
+      "reason": "Oldest artificial sweetener. May disrupt gut microbiome."
+    },
+    "955": {
+      "name": "Sucralose",
+      "label": "NEUTRAL",
+      "reason": "Artificial sweetener. Generally safe but may affect gut bacteria."
+    },
+    "960": {
+      "name": "Steviol Glycosides",
+      "label": "GOOD",
+      "reason": "Natural stevia-derived sweetener. Does not spike blood sugar."
+    },
+    "1422": {
+      "name": "Acetylated Distarch Adipate",
+      "label": "BAD",
+      "reason": "Modified starch \u2014 chemically altered. Ultra-processed thickener."
+    },
+    "122": {
+      "name": "Azorubine",
+      "label": "BAD",
+      "reason": "Synthetic red dye. Part of Southampton Six \u2014 strongly linked to hyperactivity in children."
+    },
+    "124": {
+      "name": "Ponceau 4R",
+      "label": "BAD",
+      "reason": "Synthetic red dye. Part of Southampton Six \u2014 linked to hyperactivity. Banned in USA."
+    },
+    "127": {
+      "name": "Erythrosine",
+      "label": "BAD",
+      "reason": "Synthetic red dye. Contains iodine \u2014 can affect thyroid function."
+    },
+    "440": {
+      "name": "Pectin",
+      "label": "GOOD",
+      "reason": "Natural soluble fibre from fruit. Prebiotic \u2014 supports gut health."
+    },
+    "412": {
+      "name": "Guar Gum",
+      "label": "NEUTRAL",
+      "reason": "Natural thickener from guar beans. Generally safe."
+    },
+    "415": {
+      "name": "Xanthan Gum",
+      "label": "NEUTRAL",
+      "reason": "Natural fermented thickener. Generally safe."
+    },
+    "407": {
+      "name": "Carrageenan",
+      "label": "BAD",
+      "reason": "Linked to gut inflammation in some studies. Controversial additive."
+    },
+    "451": {
+      "name": "Triphosphates",
+      "label": "NEUTRAL",
+      "reason": "Phosphate additive \u2014 generally safe but contributes to phosphate load."
+    },
+    "452": {
+      "name": "Polyphosphates",
+      "label": "NEUTRAL",
+      "reason": "Phosphate stabiliser \u2014 generally safe in approved quantities."
+    },
+    "500(i)": {
+      "name": "Sodium Carbonate",
+      "label": "NEUTRAL",
+      "reason": "Acidity regulator. Safe in normal food quantities."
+    }
+  },
+  "ingredient_keywords": {
+    "BAD": [
+      "hydrogenated",
+      "partially hydrogenated",
+      "trans fat",
+      "artificial colour",
+      "artificial dye",
+      "artificial flavour",
+      "artificial sweetener",
+      "high fructose",
+      "refined palm",
+      "bleached flour",
+      "bromated flour",
+      "vanillin",
+      "acesulfame",
+      "sodium benzoate"
+    ],
+    "GOOD": [
+      "whole grain",
+      "whole wheat",
+      "rolled oats",
+      "brown rice",
+      "flaxseed",
+      "chia",
+      "quinoa",
+      "extra virgin olive",
+      "vitamin",
+      "probiotic",
+      "prebiotic",
+      "inulin",
+      "psyllium",
+      "cocoa",
+      "cacao",
+      "dark chocolate",
+      "soy lecithin",
+      "sunflower lecithin",
+      "hazelnut",
+      "almond",
+      "walnut",
+      "whole grain",
+      "rolled oats",
+      "barley",
+      "quinoa",
+      "brown rice",
+      "flax seed",
+      "chia seed",
+      "pumpkin seed",
+      "sunflower seed",
+      "raisin",
+      "almond",
+      "walnut",
+      "cashew",
+      "pistachio",
+      "textured soy",
+      "soy protein",
+      "pea protein",
+      "whole oat",
+      "multigrain"
+    ],
+    "NEUTRAL": [
+      "starch",
+      "gum",
+      "pectin",
+      "natural flavour",
+      "spice",
+      "herb extract"
+    ]
+  }
+}
